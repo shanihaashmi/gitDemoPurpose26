@@ -78,6 +78,10 @@ public class Selenium10 {
 		cell.setCellValue("Ashmi");
 		workbook.write(fos);
 		workbook.close();
+		
+		System.err.println("Hello");
+		System.out.println("interview");
+		System.out.println("Selenium");
 
 		driver.quit();
 	}
